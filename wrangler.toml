@@ -5,7 +5,7 @@ compatibility_date = "2024-03-25"
 
 # Replace with your actual Cloudflare Account ID
 # You can find this in the dashboard sidebar or via 'npx wrangler whoami'
-account_id = "bridgeraerospace-git"
+account_id = "d2fe34a62455ac4f2aa2122c2fb524ac"
 
 # The route where your Worker will intercept WebFinger requests
 [[routes]]
