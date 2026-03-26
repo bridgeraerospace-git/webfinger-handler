@@ -1,0 +1,14 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "webfinger-handler"
+main = "src/index.js" # Ensure this matches your script's path
+compatibility_date = "2024-03-25"
+
+# Replace with your actual Cloudflare Account ID
+# You can find this in the dashboard sidebar or via 'npx wrangler whoami'
+account_id = "bridgeraerospace-git "
+
+# The route where your Worker will intercept WebFinger requests
+[[routes]]
+pattern = "://bridgerfmsaero.com*"
+zone_name = "bridgerfmsaero.com"
+
