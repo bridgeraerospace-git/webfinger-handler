@@ -4,5 +4,5 @@ compatibility_date = "2024-03-25"
 account_id = "d2fe34a62455ac4f2aa2122c2fb524ac"
 
 [[routes]]
-pattern = "://bridgerfmsaero.com*"
+pattern = "bridgerfmsaero.com/.well-known/webfinger*"
 zone_name = "bridgerfmsaero.com"
