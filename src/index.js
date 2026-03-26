@@ -8,7 +8,7 @@ export default {
     const MY_EMAIL = "s.bennett@bridgerfmsaero.com"; // Your Tailscale admin email
     
     // The Entra ID OIDC Issuer URL format
-    const ISSUER_URL = `https://login.microsoftonline.com{TENANT_ID}/v2.0`;
+    const ISSUER_URL = `https://login.microsoftonline.us{TENANT_ID}/v2.0`;
     // ------------------------------
 
     if (resource === `acct:${MY_EMAIL}`) {
