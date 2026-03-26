@@ -1,12 +1,8 @@
-#:schema node_modules/wrangler/config-schema.json
 name = "webfinger-handler"
 main = "src/index.js"
 compatibility_date = "2024-03-25"
-
-# Your validated Cloudflare Account ID
 account_id = "d2fe34a62455ac4f2aa2122c2fb524ac"
 
 [[routes]]
-# Corrected pattern: no "://" and specific to the WebFinger path
-pattern = "bridgerfmsaero.com/.well-known/webfinger*"
+pattern = "://bridgerfmsaero.com*"
 zone_name = "bridgerfmsaero.com"
