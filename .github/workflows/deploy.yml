@@ -8,5 +8,6 @@ jobs:
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{ secrets.cfut_9iG6nuq6aoS0uvHfI2uvuDbK5VVj2ufcfh0TZDWLcc6002a3 }}
-          accountId: ${{ secrets.bridgeraerospace-git }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
