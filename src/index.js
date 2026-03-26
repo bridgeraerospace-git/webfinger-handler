@@ -5,7 +5,7 @@ export default {
 
     // --- ENTRA ID CONFIGURATION ---
     const TENANT_ID = "16663179-f23a-4d36-85e2-5f061f488171"; // Replace with your Entra Tenant ID
-    const MY_EMAIL = "s.bennett@bridgerfmsaero.com"; // Your Tailscale admin email
+    const MY_EMAIL = "wsbennett@bridgerfmsaero.com"; // Your Tailscale admin email
     
     // The Entra ID OIDC Issuer URL format
     const ISSUER_URL = `https://login.microsoftonline.us/16663179-f23a-4d36-85e2-5f061f488171/v2.0`;
